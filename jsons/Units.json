@@ -101,4 +101,66 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Siege Tower",
+		"replaces": "Catapult"
+		"uniqueTo": "Assyria"
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+		"Must set up to ranged attack", "[+1] Sight", "Never appears as a Barbarian unit", "[+50]% Strength bonus for [Land] units within [2] tiles <vs cities>"]
+		"hurryCostModifier": 20,
+		"promotions": ["Cover I"]
+		"attackSound": "throw"
+	},
+	{
+		"name": "Zealot",
+		"replaces": "Swordsman"
+		"uniqueTo": "Israel"
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 10,
+		"cost": 50,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Shock I"]
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Chu-Ko-Nu",
+		"unitType": "Archery",
+		"uniqueTo": "Tang",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 14,
+		"replaces": "Crossbowman",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"promotions": ["[Chu-Ko-Nu] ability"],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Warship",
+		"uniqueTo": "Phoenicia"
+		"replaces": "Galleass"
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 22,
+		"rangedStrength": 16,
+		"cost": 115,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["[+1] Sight","[+33]% Strength <vs cities>"],
+		"attackSound": "arrow"
+	},
 ]

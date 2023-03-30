@@ -1,5 +1,33 @@
 [
 	{
+		"name": "Tang",
+		"leaderName": "Wu Zetian",
+		"adjective": ["Tang"],
+		"preferredVictoryType": "Scientific",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You won't ever be able to bother me again. Go meet Yama.",
+		"attacked": "Fool! I will disembowel you all!",
+		"defeated": "You have proven to be a cunning and competent adversary. I congratulate you on your victory.",
+		"introduction": "Greetings, I am Empress Wu Zetian. China desires peace and development. You leave us alone, we'll leave you alone.",
+		"neutralHello": "How are you today?",
+		"hateHello": "Oh. It's you?",
+		"tradeRequest": "My friend, do you think you can accept this request?",
+
+        "outerColor": [9, 112, 84],
+        "innerColor": [255,255,255],
+
+		"favouredReligion": "Taoism",
+		"uniqueName": "Art of War",
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"],
+		"cities": ["Chang'an","Luoyang","Taiyuan","Hangzhou","Chang","Jiangling","Chengdu","Guang","Youzhou","Yongchang",
+		"Shanzhou","Yizhou","Liangzhou","Lingzhou","Guangzhou","Suzhou","Kunzhou","Annan","Aizhou","Huanzhou",
+		"Andong","Chanyu","Qocho","Yiwu","Huaiyuan","Anbei","Ezhou","Songmo","Shazhou","Yanqi"]
+
+    },
+	{
 		"name": "Akkad",
 		"leaderName": "Sargon",
 		"adjective": ["Akkadian"],
@@ -19,14 +47,14 @@
 
 		"tradeRequest": "Our heartland may be far away from yours, but we offer you this agreement.",
 
-		"outerColor": [70,92,130],
-		"innerColor": [255,240,107],
+		"outerColor": [60,65,106],
+		"innerColor": [226,169,47],
 		"favoredReligion": "Islam",
 		"uniqueName": "King of the Universe",
 		"uniques": ["[+2 Happiness, +3 Culture] [in annexed cities]", "[+15]% Strength <vs cities>"],
-		"cities": ["Akkad","Sippar","Eshnunna","Babili","Borsippa","Kish","Nippur","Umma","Uruk","Ur",
-		"Eridu","Lagash","Girsu","Pashime","Susa","Tutub","Gasur","Assur","Mari","Tuttul",
-		"Nagar","Ninive","Mardaman","Shekhna","Urkish","Nabada","Nuzi","Nimrud","Wassukani","Harran"]
+		"cities": ["Akkad","Sipar","Eshnunna","Babili","Bursippa","Tell Brak","Tell Leilan","Marad","Azupiranu","Ur",
+		"Eridu","Lagash","Girsu","Pashime","Susia","Tutub","Gasur","Ashur","Mari","Tuttul",
+		"Nagar","Ninive","Mardaman","Shekhna","Urkish","Nabada","Nuzi","Nimrud","Wassukani","Haran"]
 	}
 	{
 		"name": "Sumer",
@@ -111,7 +139,7 @@
 		"favoredReligion": "Islam",
 		"uniqueName": "Hurrian Heritage",
 		"uniques": ["[+1 Culture] from [Mountain] tiles [in all cities]"]
-		"cities": ["Washukanni","Irrite","Taite","Harran","Alshe","Qattara","Terqa","Tell Fekheriye","Urkish","Tell Chuera",
+		"cities": ["Washukanni","Irrite","Taite","Karrhai","Alshe","Qattara","Terqa","Tell Fekheriye","Urkish","Tell Chuera",
 		"Nagar","Tell al-Hamadya","Emar","Arbeles","Arrapha","Hanigalbat","Karkamis","Halab","Nukhashe","Ashtata",
 		"Quadesh"]
 	}
@@ -197,4 +225,118 @@
 		"Sklavokambos","Tylissos","Amnisos","Nirou Khani","Vathypero","Arcanes","Agia Pelagia","Vasiliki","Kamaizi","Armenoi",
 		"Maleme","Platyvola","Kalami","Stylos","Myxorrouma","Saklouria","Apodhoulou"]
 	}
+	//Iron Age civs
+	{
+		"name": "Assyria",
+		"leaderName": "Ashurbanipal",
+		"adjective": ["Assyrian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "I fear there is no other choice but to remove you from this world!",
+		"attacked": "I think you will come to regret this decision...most unwise.",
+		"defeated": "We may be defeated, but our legacy will live on in the written word!",
+		"introduction": "I welcome you to the great kingdom of Assyria...have you come to view my library?",
+
+		"neutralHello": "?",
+		"hateHello": "?",
+
+		"tradeRequest": "Will you consider a trade?",
+
+		"outerColor": [250,253,220],
+		"innerColor": [195,130,20],
+		"favoredReligion": "Zoroastrianism",
+		"uniqueName": "Treasures of Nineveh",
+		"uniques": ["[+50]% [Science] [in annexed cities]"],
+		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
+			"Shubat-Enlil","Qatna","Sareisa","Sam al","Qarqar","Til Barsip","Sultantepe","Erbil","Hamath","Guzana",
+			"Turuspa","Nasibina","Arpad","Kelashin","Urartu","Sabata","Hit"],
+	}
+	{
+		"name": "Israel",
+		"leaderName": "David",
+		"adjective": ["Israelite"],
+		"startBias": ["Oasis"],
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are a threat to our salvation.",
+		"attacked": "With Yahweh we shall smite your armies and follow His orders, unless He wills otherwhise.",
+		"defeated": "Even though I walk through the valley of the shadow of death, I fear no evil, for He is with me.",
+		"introduction": "Welcome to the land of the Israelites. I am David the anointed king, the leader of the people Moses had freed from slavery, and a servant of Yahweh.",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "?",
+
+		"tradeRequest": "Will you consider a trade?",
+
+		"outerColor": [206,215,255],
+		"innerColor": [0,38,209],
+		"favoredReligion": "Judaism",
+		"uniqueName": "The Promised Land",
+		"uniques": ["[+1 Faith] from [Pasture] tiles [in all cities]","Earn [50]% of killed [Wounded] unit's [Cost] as [Faith]"]
+		"cities": ["Yerushalayim","Bethlehem","Gabaon","Betel","Ai","Jericho","Elteke","Gezer","Gibeton","Ekron",
+		"Beersheba","Sidon","Tyr","Yafo","Gilgal","Capernaum","Megiddo","Hebron","Jazer","Hesbon",
+		"Zafon","Manahaim","Dor","Jocneam","Ascaf"],
+	}
+	{
+		"name": "Phoenicia",
+		"leaderName": "Hiram I",
+		"adjective": ["Phoenician"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "The warships will arive at any time now, be afraid.",
+		"attacked": "Your foolish boats will sink before your harbor is out of your sight.",
+		"defeated": "Take care of our ports.",
+		"introduction": "I am Hiram, king of Sur. Here you see are my grandiose ports.",
+
+		"neutralHello": "Greetings.",
+		"hateHello": "?",
+
+		"tradeRequest": "Will you consider a trade?",
+
+		"outerColor": [113,28,93],
+		"innerColor": [145,195,255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Purple Sea",
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <after discovering [Compass]>","[+5 Gold] from all [Mlt] buildings"]
+		"cities": ["Sur","Sydon","Athar","Berut","Ampi","Amia","Arqa","Baalbek","Botrys","Gebal",
+		"Sarepta","Ras Shamra","Arvad","Ramitha","Tartus","Amrit","Carne","Achziv","Akko","Atlit",
+		"Japho","Dora","Elyakhin","Heyfa","Tel Shikmona"],
+	}
+// City states
+	{
+		"name": "Lacedaemon",
+		"adjective": ["Lacedaemonoi"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "What a fine battle! Sparta is willing to serve you!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [250,128,114],
+		"cities": ["Lacedaemon"]
+	},
+	{
+		"name": "Palembang",
+		"adjective": ["Palembangese"],
+		"cityStateType": "Maritime",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
+		"attacked": "Now, witness the power of the Indonesians!",
+		"defeated": "What treachery has struck us? No, what evil?",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255,69,0],
+		"cities": ["Palembang"]
+	},
 ]

@@ -70,4 +70,46 @@
 		"uniques": ["[50]% Food is carried over after population increases [in this city]","[+1 Food] from [Coast] tiles [in this city]"],
 		"requiredTech": "Engineering"
 	},
+	{
+		"name": "Royal Library",
+		"replaces": "Library"
+		"uniqueTo": "Assyria"
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Artist": 1}
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]","New [Military] units start with [10] Experience [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Synagogue",
+		"replaces": "Temple",
+		"science": 2,
+		"faith": 3,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Paper Maker",
+		"replaces": "Library",
+		"uniqueTo": "Tang",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Mlt",
+		"replaces": "Harbor"
+		"uniqueTo": "Phoenicia"
+		"cost": 120,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]"]
+		"percentStatBonus": {"gold": 20},
+		"requiredTech": "Compass"
+	},
 ]
