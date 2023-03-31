@@ -163,4 +163,31 @@
 		"uniques": ["[+1] Sight","[+33]% Strength <vs cities>"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Charging Chariot",
+		"uniqueTo": "Zhou",
+		"replaces": "Horseman"
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Guru",
+		"replaces": "Missionary"
+		"uniqueTo": "Magadha"
+		"unitType": "Civilian",
+		"uniques": ["Can [Spread Religion] [3] times", "May enter foreign tiles without open borders, but loses [200] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+		"movement": 4,
+		"religiousStrength": 1200
+	},
 ]

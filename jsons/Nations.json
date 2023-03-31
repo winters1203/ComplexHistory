@@ -313,6 +313,60 @@
 		"Sarepta","Ras Shamra","Arvad","Ramitha","Tartus","Amrit","Carne","Achziv","Akko","Atlit",
 		"Japho","Dora","Elyakhin","Heyfa","Tel Shikmona"],
 	}
+	{
+		"name": "Zhou",
+		"leaderName": "Confucius",
+		"adjective": ["Zhou"],
+		"preferredVictoryType": "Cultural",
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The good will prevail.",
+		"attacked": "Honesty is the best policy, and you have honestly displayed your thoughts.",
+		"defeated": "The general of a large army may be defeated, but you cannot defeat the determined minds of the people.",
+		"introduction": "Greetings, I am Confucius, the great teacher of all.",
+		"neutralHello": "Greetings.",
+		"hateHello": "We are open to your words.",
+		"tradeRequest": "Dear friend, it is up to your will to accept this request.",
+
+        "outerColor": [0, 0, 0],
+        "innerColor": [255,25,25],
+
+		"favouredReligion": "Confucianism",
+		"uniqueName": "Righteousness",
+		"uniques": ["[+15]% Strength <when fighting in [Enemy Land] tiles>","[+20]% [Culture] [in all cities]"],
+		"cities": ["Chengzhou","Wangcheng","Fenghao","Zou","Luoyi","Anyi","Yangzhai","Daliang","Ye","Wei",
+		"Handan","Dai","Ji","Linzi","Danyang","Cai","Chen","Shouchun","Wu","Xianyang",
+		"Ying","Yong","Nanzheng"]
+    },
+	{
+		"name": "Magadha",
+		"leaderName": "Bimbisara",
+		"adjective": ["Magadha"],
+		"preferredVictoryType": "Cultural",
+		"startBias": ["Grassland"]
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Even if almost every citizen of ours is dead your defeat will be glorious.",
+		"attacked": "Just like Arjuna your generals shall perish.",
+		"defeated": "Take care of our lands, our animals, and whatever we have for you.",
+		"introduction": "I am Bimbisara of the land of the Indians, and a companion of the Buddha.",
+		"neutralHello": "Greetings.",
+		"hateHello": "We are open to your words.",
+		"tradeRequest": "Shall you accept this request by me?",
+
+        "outerColor": [78,11,100],
+        "innerColor": [115,226,216],
+
+		"favouredReligion": "Buddhism",
+		"uniqueName": "Shraddha",
+		"uniques": ["[+1 Faith, -1 Food] from [Cattle] tiles [in all cities]"],
+		"cities": ["Rajargha","Campa","Vaisali","Kusinagara","Varanasi","Ayodhya","Sravasti","Kampilya","Ahicchatra","Hastinapura",
+		"Indraprastha","Viratanagara","Mathura","Kausambi","Suktimati","Tripuri","Vidisa","Ujjayini","Mahismati","Paudanyaputra"]
+    },
 // City states
 	{
 		"name": "Lacedaemon",

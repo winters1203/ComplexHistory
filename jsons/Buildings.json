@@ -112,4 +112,26 @@
 		"percentStatBonus": {"gold": 20},
 		"requiredTech": "Compass"
 	},
+	{
+		"name": "School of Thought",
+		"replaces": "University",
+		"uniqueTo": "Zhou",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 25,"culture": 15},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+2 Culture] per [2] population [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Vedic Library",
+		"replaces": "Library"
+		"uniqueTo": "Magadha"
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"cost": 65,
+		"uniques": ["[+1 Science] per [2] population [in this city]","[+1 Faith] per [3] population [in this city]"],
+		"requiredTech": "Writing"
+	},
 ]
