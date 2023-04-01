@@ -1,4 +1,4 @@
-# Complex-History
+# ComplexHistory
 WIP Expansion mod for Unciv. Play as the petty empires of Bronze Age Mesopotamia up to the modern countries of the 20th century.
 # Info
 This is work in progress, the roadmap will basically be this: Bronze Age -> Iron Age -> Classical Age -> Late Antiquity -> Medieval -> Early Modern -> Modern -> Contemporary
