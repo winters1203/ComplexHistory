@@ -109,7 +109,7 @@
 		"innerColor": [0,0,64],
 		"favoredReligion": "Islam",
 		"uniqueName": "Indus Trade Network",
-		"uniques": ["[+10 Culture] from each Trade Route"]
+		"uniques": ["[+3 Culture] from each Trade Route"]
 		"cities": ["Susa","Anshan","Awan","Hidalu","Dur Untash","Borahshi","Der","Bit Bunakki","Hamazi","Malyan",
 		"Shimashki","Zahara","Bashime","Sherihun","Marhashi","Dur-Kindattu","Yahya","Shahr-i-Sokhta","Choga Mish","Sialk",
 		"Godin Tepe","Ozbaki","Sofalin","Tal-i Ghazir", "Hissar","Dur-Luhishan","Dur-Epirmupi","Dur-Girnamme"]
