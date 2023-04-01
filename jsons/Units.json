@@ -190,4 +190,81 @@
 		"movement": 4,
 		"religiousStrength": 1200
 	},
+	{
+		"name": "Kushite Archer",
+		"replaces": "Archer"
+		"uniqueTo": "Nubia"
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["Double movement in [Desert]"]
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Martik",
+		"replaces": "Spearman",
+		"uniqueTo": "Urartu",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Drill I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Anatolian Cavalry",
+		"uniqueTo": "Lydia",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-25]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Steppe Horseman",
+		"uniqueTo": "Medes",
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Double movement in [Hill]"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Saka Horse Archer",
+		"uniqueTo": "Scythia"
+		"replaces": "Chariot Archer"
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 8,
+		"rangedStrength": 14,
+		"cost": 60,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
 ]

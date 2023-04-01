@@ -134,4 +134,45 @@
 		"uniques": ["[+1 Science] per [2] population [in this city]","[+1 Faith] per [3] population [in this city]"],
 		"requiredTech": "Writing"
 	},
+	{
+		"name": "Mountain Irrigation",
+		"uniqueTo": "Urartu"
+		"maintenance": 1,
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Mountain]","[+1 Food, +1 Production] from [Mountain] tiles [in this city]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Croeseid Mint",
+		"uniqueTo": "Lydia",
+		"replaces": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"cost": 85,
+		"hurryCostModifier": 25,
+		"uniques": ["[+3 Gold, +1 Production] from [Gold Ore] tiles [in this city]", "[+3 Gold, +1 Production] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Magi Temple",
+		"uniqueTo": "Medes"
+		"replaces": "Temple"
+		"faith": 3,
+		"science": 4
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Steppe Barracks",
+		"uniqueTo": "Scythia"
+		"replaces": "Barracks"
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
 ]
