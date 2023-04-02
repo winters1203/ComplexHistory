@@ -83,6 +83,7 @@
 	{
 		"name": "Synagogue",
 		"replaces": "Temple",
+		"uniqueTo": "Israel"
 		"science": 2,
 		"faith": 3,
 		"requiredBuilding": "Shrine",
