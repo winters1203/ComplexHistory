@@ -80,7 +80,7 @@
 		"innerColor": [249,161,35],
 		"favoredReligion": "Islam",
 		"uniqueName": "Cradle of Civilization",
-		"uniques": ["Starts with [Pottery]","[+1 Culture] from [Farm] tiles [in all cities]"]
+		"uniques": ["Starts with [Pottery]","[+2 Culture] from [Flood plains] tiles [in all cities]"]
 		"cities": ["Eridu","Kish","Ur","Lagash","Nippur","Bad-Tibira","Sippar","Shuruppak","Adab","Isin",
 		"Larak","Abu Salabikh","Akshak","Umma","Larsa","Himazi","Girsu","Jemdet Nasr","Nina","Kuara",
 		"Dilbat","Kutha","Marad","Zabalam","Kisurra","Pazurish-Dagan","Harbidum","Kesh","Failaka"]
