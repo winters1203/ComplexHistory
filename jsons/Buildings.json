@@ -18,7 +18,7 @@
 		"cost": 48,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled","[+2 Faith] per [5] population [in this city]"]
+		"uniques": ["Hidden when religion is disabled","[+1 Faith] per [4] population [in this city]"]
 	},
 	{
 		"name": "Statue Maker",
