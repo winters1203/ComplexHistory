@@ -64,10 +64,10 @@
 		"uniqueTo": "Minoa"
 		"replaces": "Aqueduct"
 		"maintenance": 1,
-		"cost": 133,
+		"cost": 125,
 		"food": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["[50]% Food is carried over after population increases [in this city]","[+1 Food] from [Coast] tiles [in this city]"],
+		"uniques": ["[50]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
 	},
 	{
@@ -175,5 +175,25 @@
 		"maintenance": 0,
 		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Ballcourt",
+		"uniqueTo": "Olmecs",
+		"replaces": "Colosseum",
+		"maintenance": 1,
+		"cost": 85,
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Monumental Complex",
+		"uniqueTo": "Etruscans",
+		"replaces": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured","[+1 Culture] per [6] population [in this city]"]
 	},
 ]

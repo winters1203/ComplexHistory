@@ -242,7 +242,7 @@
 		"replaces": "Horseman",
 		"unitType": "Mounted",
 		"movement": 3,
-		"strength": 17,
+		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
@@ -259,12 +259,41 @@
 		"unitType": "Archery",
 		"movement": 4,
 		"strength": 8,
-		"rangedStrength": 14,
+		"rangedStrength": 12,
 		"cost": 60,
 		"requiredTech": "The Wheel",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Maceman",
+		"uniqueTo": "Olmecs"
+		"replaces": "Warrior"
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects","[+25]% Strength <vs [Mounted] units>","[+25]% Strength <vs [Archery] units>"]
+		"attackSound": "nonmetalhit",
+	}
+	{
+		"name": "Italic Infantry",
+		"uniqueTo": "Etruscans"
+		"replaces": "Swordsman"
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"promotions": ["Drill I","Cover I"]
+		"attackSound": "metalhit"
 	},
 ]

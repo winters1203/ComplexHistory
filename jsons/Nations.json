@@ -363,7 +363,7 @@
 
 		"favouredReligion": "Buddhism",
 		"uniqueName": "Shraddha",
-		"uniques": ["[+1 Faith, -1 Food] from [Cattle] tiles [in all cities]"],
+		"uniques": ["[+1 Faith] from [Forest] tiles [in all cities] <after discovering [Writing]>"],
 		"cities": ["Rajargha","Campa","Vaisali","Kusinagara","Varanasi","Ayodhya","Sravasti","Kampilya","Ahicchatra","Hastinapura",
 		"Indraprastha","Viratanagara","Mathura","Kausambi","Suktimati","Tripuri","Vidisa","Ujjayini","Mahismati","Paudanyaputra"]
     },
@@ -493,9 +493,62 @@
 
 		"favouredReligion": "Islam",
 		"uniqueName": "Wariors of the Steppe",
-		"uniques": ["[-50]% maintenance costs <for [Ranged] units>","[-50]% maintenance costs <for [Mounted] units>","[3] free [Saka Horse Archer] units appear <upon discovering [The Wheel]>"],
+		"uniques": ["[-33]% maintenance costs <for [Ranged] units>","[-33]% maintenance costs <for [Mounted] units>","[2] free [Saka Horse Archer] units appear <upon discovering [The Wheel]>"],
 		"cities": ["Issyk","Kul Oba","Gelonus","Pazyryk","Chertomlyk","Kostromskaya","Myriv","Solokha","Malkop","Kamlanka-Dniprovska",
 		"Kelermes","Solocha","Ulski","Arzhan","Melgunov"]
+    },
+// Version 1.1
+	{
+		"name": "Olmecs",
+		"leaderName": "Dragon Claw",
+		"adjective": ["Olmec"],
+		"preferredVictoryType": "Domination"
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You must be removed from this world.",
+		"attacked": "Go ahead.",
+		"defeated": "Our monuments will last until the end of time.",
+		"introduction": "Greetings, stranger. I am Dragon Claw",
+		"neutralHello": "Greetings, friend.",
+		"hateHello": "What do you want now?",
+		"tradeRequest": "Friend, let us exchange goods.",
+
+        "outerColor": [32,37,48],
+        "innerColor": [128,256,128],
+
+		"favouredReligion": "Christianity",
+		"uniqueName": "Rubber People",
+		"uniques": ["[+1 Production, +1 Gold] from [Cotton] tiles [in all cities]","[+1 Happiness] from [Jungle] tiles [in all cities]"]
+		"cities": ["La Venta","San Lorenzo","Laguna de los Cerros","Tres Zapotes","Potrero Nuevo","San Andres","Cascajal","El Azuzul","El Manati","Las Limas",
+		"Arroyo Sonso","Llano del Jicaro","Cobata"]
+    },
+	{
+		"name": "Etruscans",
+		"leaderName": "Tarchon",
+		"adjective": ["Etruscan"],
+		"preferredVictoryType": "Cultural"
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "The gods have chosen me for this endeavour.",
+		"attacked": "We will make such inflicting blows to your morale and sanity.",
+		"defeated": "You may destroy our monuments, erase our language from the world, but the gods have favor in us.",
+		"introduction": "I am Tarchon, king of the Etruscans. To you we may be aliens, but do not worry, we are a friendly people.",
+		"neutralHello": "Hello.",
+		"hateHello": "What?",
+		"tradeRequest": "Let us exchange resources for the betterment of our nations.",
+
+        "outerColor": [20,72,189],
+        "innerColor": [207,222,255],
+
+		"favouredReligion": "Christianity",
+		"uniqueName": "Villanova Culture",
+		"uniques": ["[+1 Production, +1 Gold] from [Iron] tiles [in all cities]","Receive free [Great Artist] when you discover [Construction]"]
+		"cities": ["Tarchuna","Vetluna","Veia","Curtna","Aritim","Clevsin","Pupluna","Perusna","Velch","Velathri",
+		"Chaire","Velzna","Birent","Arimna","Kainua","Manthva","Muthna","Pathva","Nula","Capeva"]
     },
 // City states
 	{
