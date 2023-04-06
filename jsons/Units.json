@@ -74,7 +74,7 @@
 	{
 		"name": "Anatolian Spearman",
 		"replaces": "Spearman",
-		"uniqueTo": "Luwia",
+		"uniqueTo": "Arzawa",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
@@ -87,19 +87,18 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Boar Tusked Warrior",
-		"replaces": "Swordsman"
-		"uniqueTo": "Minoa"
-		"unitType": "Sword",
+		"name": "Minoan Archer",
+		"uniqueTo": "Minoa",
+		"replaces": "Archer"
+		"unitType": "Archery",
 		"movement": 2,
-		"strength": 16,
-		"cost": 80,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"promotions": ["Shock I","Amphibious"]
-		"obsoleteTech": "Steel",
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"strength": 5,
+		"rangedStrength": 9,
+		"cost": 35,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Siege Tower",
@@ -154,13 +153,14 @@
 		"replaces": "Galleass"
 		"unitType": "Ranged Water",
 		"movement": 3,
-		"strength": 22,
-		"rangedStrength": 16,
+		"strength": 18,
+		"rangedStrength": 17,
 		"cost": 115,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
 		"uniques": ["[+1] Sight","[+33]% Strength <vs cities>"],
+		"promotions": ["Coastal Raider I"]
 		"attackSound": "arrow"
 	},
 	{
@@ -241,7 +241,7 @@
 		"uniqueTo": "Medes",
 		"replaces": "Horseman",
 		"unitType": "Mounted",
-		"movement": 3,
+		"movement": 4,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",

@@ -137,6 +137,13 @@ NationIcons/Akkad
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Arzawa
+  rotate: false
+  xy: 4, 1668
+  size: 290, 290
+  orig: 290, 290
+  offset: 0, 0
+  index: -1
 NationIcons/Assyria
   rotate: false
   xy: 628, 342
@@ -170,13 +177,6 @@ NationIcons/Israel
   xy: 1758, 1758
   size: 200, 200
   orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/Luwia
-  rotate: false
-  xy: 4, 1668
-  size: 290, 290
-  orig: 290, 290
   offset: 0, 0
   index: -1
 NationIcons/Lydia
@@ -334,6 +334,13 @@ UnitIcons/Italic Infantry
   offset: 0, 0
   index: -1
 UnitIcons/Kushite Archer
+  rotate: false
+  xy: 212, 1252
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Minoan Archer
   rotate: false
   xy: 212, 1252
   size: 200, 200

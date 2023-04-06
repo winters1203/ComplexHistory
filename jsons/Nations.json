@@ -138,7 +138,7 @@
 		"innerColor": [175,184,230],
 		"favoredReligion": "Islam",
 		"uniqueName": "Hurrian Heritage",
-		"uniques": ["[+1 Culture] from [Mountain] tiles [in all cities]"]
+		"uniques": ["[3] free [Chariot Archer] units appear <upon discovering [Horseback Riding]>"]
 		"cities": ["Washukanni","Irrite","Taite","Karrhai","Alshe","Qattara","Terqa","Tell Fekheriye","Urkish","Tell Chuera",
 		"Nagar","Tell al-Hamadya","Emar","Arbeles","Arrapha","Hanigalbat","Karkamis","Halab","Nukhashe","Ashtata",
 		"Quadesh"]
@@ -172,9 +172,9 @@
 		"Tegarama","Kummani","Hahhum","Carcemish","Alep","Mashat Hoyuk","Gavur Kalesi","Arwada","Zalpa","Samuhha"]
 	}
 	{
-		"name": "Luwia",
+		"name": "Arzawa",
 		"leaderName": "Tarhuntaradu",
-		"adjective": ["Luwian"],
+		"adjective": ["Arzawan"],
 		"startBias": ["Hill"],
 
 		"startIntroPart1": "",
@@ -415,7 +415,7 @@
 
 		"favouredReligion": "Christianity",
 		"uniqueName": "Kingdom of Van",
-		"uniques": ["[+2 Gold, +1 Food] from [Mountain] tiles [in all cities]","[+1 Production] from [Wheat] tiles [in all cities]"],
+		"uniques": ["[+2 Gold, +1 Food] from [Mountain] tiles [in all cities]","[+1 Production] from [Wheat] tiles [in all cities]","[20]% Gold <in cities with a [Castle]>"],
 		"cities": ["Tushpa","Ururut","Arzashkun","Menuaini","Sarduriqurda","Arshuqiuni","Bastam","Kurshi","Gilzan","Kubushkia",
 		"Musasir","Ushnu","Tashtepe","Marmos","Anashi","Delibala","Argishtihinili","Ordaklou","Erebouni","Zagalu",
 		"Luqiuni","Diauehi","Etiuni","Eriaki","Akhuriani"]
@@ -467,7 +467,7 @@
 
 		"favouredReligion": "Zoroastrianism",
 		"uniqueName": "The North of Mesopotamia",
-		"uniques": ["[+1 Production] from [Pasture] tiles [in all cities]","[-25]% maintenance costs <for [Ranged] units>"],
+		"uniques": ["[+1 Production] from [Camp] tiles [in all cities]","[-25]% maintenance costs <for [Ranged] units>"],
 		"cities": ["Hagmatana","Khalmanu","Erbil","Tuspa","Raga","Qumis","Vishpauzati","Tusha","Mouru","Termez",
 		"Zariaspa","Zranka","Kirkuk","Amida","Teishebani"]
     },
