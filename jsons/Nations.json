@@ -545,8 +545,8 @@
         "innerColor": [207,222,255],
 
 		"favouredReligion": "Christianity",
-		"uniqueName": "Villanova Culture",
-		"uniques": ["[+1 Production, +1 Gold] from [Iron] tiles [in all cities]","Receive free [Great Artist] when you discover [Construction]"]
+		"uniqueName": "Etruscan League",
+		"uniques": ["[-33]% City-State Influence degradation","Receive free [Great Artist] when you discover [Construction]","[+50]% [Culture] from City-States"]
 		"cities": ["Tarchuna","Vetluna","Veia","Curtna","Aritim","Clevsin","Pupluna","Perusna","Velch","Velathri",
 		"Chaire","Velzna","Birent","Arimna","Kainua","Manthva","Muthna","Pathva","Nula","Capeva"]
     },
