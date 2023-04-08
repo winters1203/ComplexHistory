@@ -308,7 +308,7 @@
 		"innerColor": [145,195,255],
 		"favoredReligion": "Christianity",
 		"uniqueName": "The Purple Sea",
-		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <upon discovering [Compass]>","[+5 Gold] from all [Mlt] buildings"]
+		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", "Enables [All] units to enter ocean tiles <after discovering [Compass]>","[+5 Gold] from all [Mlt] buildings"]
 		"cities": ["Sur","Sydon","Athar","Berut","Ampi","Amia","Arqa","Baalbek","Botrys","Gebal",
 		"Sarepta","Ras Shamra","Arvad","Ramitha","Tartus","Amrit","Carne","Achziv","Akko","Atlit",
 		"Japho","Dora","Elyakhin","Heyfa","Tel Shikmona"],
