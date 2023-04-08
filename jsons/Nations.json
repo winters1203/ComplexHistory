@@ -248,7 +248,7 @@
 
 		"outerColor": [250,253,220],
 		"innerColor": [195,130,20],
-		"favoredReligion": "Zoroastrianism",
+		"favoredReligion": "Christianity",
 		"uniqueName": "Treasures of Nineveh",
 		"uniques": ["[+50]% [Science] [in annexed cities]"],
 		"cities": ["Assur","Nineveh","Nimrud","Kar-Tukulti-Ninurta","Dur-Sharrukin","Halab","Carchemish","Kanesh","Harran","Imgur-Enlil",
