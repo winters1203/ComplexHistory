@@ -389,7 +389,7 @@
 
 		"favouredReligion": "Islam",
 		"uniqueName": "Ta-Seti",
-		"uniques": ["[+1 Food, +1 Production] from [Desert] tiles [in all cities]","[-1 Food] from [Grassland] tiles [in all cities]"],
+		"uniques": ["[+1 Food, +1 Production] from [Desert] tiles without [Hill] [in all cities]","[-1 Food] from [Grassland] tiles [in all cities]"],
 		"cities": ["Meroe","Napata","Kerma","Nuri","Kawa","Buhen","Abu Simbel","Nabta Playa","El-Kurru","Sedeinga",
 		"Heh","Shaat","Iken","Abu Simbel","Dengeil","Miam","Tombos","Kurgus","Toshka","Soleb"]
     },
