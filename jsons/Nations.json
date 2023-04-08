@@ -550,6 +550,56 @@
 		"cities": ["Tarchuna","Vetluna","Veia","Curtna","Aritim","Clevsin","Pupluna","Perusna","Velch","Velathri",
 		"Chaire","Velzna","Birent","Arimna","Kainua","Manthva","Muthna","Pathva","Nula","Capeva"]
     },
+	{
+		"name": "Indus",
+		"leaderName": "King",
+		"adjective": ["Indus"],
+		"preferredVictoryType": "Cultural"
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You must fall.",
+		"attacked": "What did you just do?",
+		"defeated": "Some day they shall find our ruined cities.",
+		"introduction": "I am the king of the inhabitants of the Indus. Don't hesitate to befriend us.",
+		"neutralHello": "Greetings.",
+		"hateHello": "You again.",
+		"tradeRequest": "Let us exchange resources for the betterment of our nations.",
+
+        "outerColor": [97,114,22],
+        "innerColor": [179,217,223],
+
+		"favouredReligion": "Hinduism",
+		"uniqueName": "Urban Planning",
+		"uniques": ["[-33]% Unhappiness from [Population] [in all cities]","Provides a [Aqueduct] in your first [4] cities for free <upon discovering [Engineering]>"]
+		"cities": ["Harappa","Mohenjo-Daro","Rakhigarhi","Ganweriwala","Dholavira","Kalibangan","Lakhmirwala","Banawali","Mitathal","Ropar",
+		"Manda","Rehman Deri","Vainiwal","Chapuwala","Nausharo","Lakhueenjo-Daro","Chanhu-Daro","Kot Diji","Surkotada","Kuntasi"]
+    },
+	{
+		"name": "Norte Chico",
+		"leaderName": "King",
+		"adjective": ["Norte Chico"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You must fall.",
+		"attacked": "What did I do to you?",
+		"defeated": "Such a fool you are.",
+		"introduction": "Welcome to the coast of our precious land.",
+		"hateHello": "Why are you here?",
+		"tradeRequest": "We request this exchange if you will it.",
+
+        "outerColor": [175,45,45],
+        "innerColor": [177,186,241],
+
+		"favouredReligion": "Christianity",
+		"uniqueName": "Harnesser of the Seas",
+		"uniques": ["[25]% [Gold] [in all coastal cities]","[+1 Production] from [Water resource] tiles [in all cities]"]
+		"cities": ["Caral","Aspero","El Paraiso","Porvenir","Cerro Lampay","Caballete","Cerro Blanco","Huaricanga","Shaura","Upaca",
+		"Potao","Vinto Alto","Huayto","Lurihuasi","Miraya"]
+    },
 // City states
 	{
 		"name": "Lacedaemon",

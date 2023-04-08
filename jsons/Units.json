@@ -35,7 +35,7 @@
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 9,
-		"rangedStrength": 13,
+		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
@@ -295,5 +295,35 @@
 		"hurryCostModifier": 20,
 		"promotions": ["Drill I","Cover I"]
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Indus Archer",
+		"uniqueTo": "Indus",
+		"replaces": "Archer",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 5,
+		"rangedStrength": 9,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"promotions": ["Accuracy I"]
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Wanpu",
+		"uniqueTo": "Norte Chico",
+		"replaces": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 12,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Caravel",
+		"promotions": ["Boarding Party I"]
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
 	},
 ]
