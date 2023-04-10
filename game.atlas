@@ -34,7 +34,7 @@ BuildingIcons/Croeseid Mint
   index: -1
 BuildingIcons/Grand Granary
   rotate: false
-  xy: 1550, 1758
+  xy: 4, 4
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -69,77 +69,77 @@ BuildingIcons/Mountain Irrigation
   index: -1
 BuildingIcons/Royal Barracks
   rotate: false
-  xy: 1252, 1550
+  xy: 420, 510
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Royal Library
   rotate: false
-  xy: 420, 510
+  xy: 628, 718
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/School of Thought
   rotate: false
-  xy: 836, 926
+  xy: 1044, 1134
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Sewers
   rotate: false
-  xy: 1252, 1342
+  xy: 1460, 1550
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Sphinx Gate
   rotate: false
-  xy: 420, 302
+  xy: 628, 510
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Statue Maker
   rotate: false
-  xy: 628, 510
+  xy: 836, 718
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Steppe Barracks
   rotate: false
-  xy: 836, 718
+  xy: 1044, 926
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Synagogue
   rotate: false
-  xy: 1460, 1342
+  xy: 1668, 1550
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Vedic Library
   rotate: false
-  xy: 420, 94
+  xy: 628, 302
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Ziggurat
   rotate: false
-  xy: 1460, 1134
+  xy: 1668, 1342
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Oasis Farm
   rotate: false
-  xy: 628, 926
+  xy: 836, 1134
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -160,42 +160,42 @@ NationIcons/Arzawa
   index: -1
 NationIcons/Assyria
   rotate: false
-  xy: 1668, 1382
+  xy: 628, 134
   size: 160, 160
   orig: 160, 160
   offset: 0, 0
   index: -1
 NationIcons/Elam
   rotate: false
-  xy: 4, 420
+  xy: 1342, 1758
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Etruscans
   rotate: false
-  xy: 4, 212
+  xy: 1550, 1758
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Hittites
   rotate: false
-  xy: 212, 1460
+  xy: 212, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Indus
   rotate: false
-  xy: 212, 1252
+  xy: 212, 1044
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Israel
   rotate: false
-  xy: 212, 1044
+  xy: 212, 836
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -235,65 +235,72 @@ NationIcons/Mitanni
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Norte Chico
+NationIcons/Mycenaeans
   rotate: false
   xy: 1044, 1550
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Nubia
+NationIcons/Norte Chico
   rotate: false
   xy: 420, 718
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Olmecs
+NationIcons/Nubia
   rotate: false
-  xy: 836, 1134
+  xy: 628, 926
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Phoenicia
+NationIcons/Olmecs
   rotate: false
   xy: 1044, 1342
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+NationIcons/Phoenicia
+  rotate: false
+  xy: 1252, 1550
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 NationIcons/Scythia
   rotate: false
-  xy: 1044, 1134
+  xy: 1252, 1342
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Sumer
   rotate: false
-  xy: 1252, 1134
+  xy: 1460, 1342
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Tang
   rotate: false
-  xy: 628, 194
+  xy: 836, 402
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Zhou
   rotate: false
-  xy: 628, 194
+  xy: 836, 402
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Urartu
   rotate: false
-  xy: 1668, 1550
+  xy: 420, 94
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -333,49 +340,56 @@ UnitIcons/Charging Chariot
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Elamite Bowman
+UnitIcons/Dhanurdhari
   rotate: false
-  xy: 1342, 1758
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Indus Archer
-  rotate: false
-  xy: 1342, 1758
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Guru
-  rotate: false
-  xy: 4, 4
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Heavy Chariot
-  rotate: false
-  xy: 1758, 1758
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/Italic Infantry
-  rotate: false
-  xy: 212, 836
+  xy: 4, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Kushite Archer
   rotate: false
-  xy: 212, 628
+  xy: 4, 420
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Minoan Archer
+  rotate: false
+  xy: 4, 420
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Elamite Bowman
+  rotate: false
+  xy: 4, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Indus Archer
+  rotate: false
+  xy: 4, 212
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Guru
+  rotate: false
+  xy: 1758, 1758
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Chariot
+  rotate: false
+  xy: 212, 1460
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Italic Infantry
   rotate: false
   xy: 212, 628
   size: 200, 200
@@ -405,49 +419,49 @@ UnitIcons/Martik
   index: -1
 UnitIcons/Saka Horse Archer
   rotate: false
-  xy: 628, 718
+  xy: 836, 926
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Siege Tower
   rotate: false
-  xy: 1460, 1550
+  xy: 420, 302
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Steppe Horseman
   rotate: false
-  xy: 1044, 926
+  xy: 1252, 1134
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Wanpu
   rotate: false
-  xy: 628, 302
+  xy: 836, 510
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/War Cart
   rotate: false
-  xy: 836, 510
+  xy: 1044, 718
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Warship
   rotate: false
-  xy: 1044, 718
+  xy: 1252, 926
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Zealot
   rotate: false
-  xy: 1252, 926
+  xy: 1460, 1134
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
