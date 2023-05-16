@@ -1,3 +1,1 @@
-{
-	"nationsToRemove": ["Sidon","Ur","China"]
-}
+{nationsToRemove:[China,Ur,Sidon,Tang],lastUpdated:2023-04-08T03:43:44Z,modUrl:"https://github.com/winters1203/ComplexHistory",author:winters1203,modSize:983,topics:[unciv-mod,unciv-mod-expansions],constants:{unitUpgradeCost:{}}}

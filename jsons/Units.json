@@ -135,7 +135,7 @@
 	{
 		"name": "Chu-Ko-Nu",
 		"unitType": "Archery",
-		"uniqueTo": "Tang",
+		"uniqueTo": "Han",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 14,
@@ -329,5 +329,35 @@
 		"promotions": ["Boarding Party I"]
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Boar Tusked Warrior",
+		"replaces": "Swordsman"
+		"uniqueTo": "Mycenaeans"
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 80,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"promotions": ["Shock I","Amphibious"]
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "War Elephant",
+		"unitType": "Archery",
+		"uniqueTo": "Maurya",
+		"replaces": "Chariot Archer",
+		"movement": 3,
+		"strength": 9,
+		"rangedStrength": 11,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"attackSound": "elephant"
 	},
 ]

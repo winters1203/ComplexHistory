@@ -95,7 +95,7 @@
 	{
 		"name": "Paper Maker",
 		"replaces": "Library",
-		"uniqueTo": "Tang",
+		"uniqueTo": "Han",
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
@@ -221,5 +221,27 @@
 			"Connects trade routes over water","Must be next to [Coast]"],
 		"percentStatBonus": {"food": 10},
 		"requiredTech": "Compass"
+	},
+	{
+		"name": "Cyclopean Walls",
+		"uniqueTo": "Mycenaeans",
+		"replaces": "Walls"
+		"cost": 50,
+		"cityStrength": 5,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Pillared Hall",
+		"uniqueTo": "Maurya"
+		"culture": 1,
+		"faith": 1,
+		"cost": 50,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured"]
+		"requiredTech": "Philosophy"
 	},
 ]

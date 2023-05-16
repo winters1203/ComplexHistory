@@ -22,7 +22,7 @@
 		"favouredReligion": "Taoism",
 		"uniqueName": "Art of War",
 		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"],
-		"cities": ["Chang'an","Luoyang","Taiyuan","Hangzhou","Chang","Jiangling","Chengdu","Guang","Youzhou","Yongchang",
+		"cities": ["Chang'an","Luoyi","Taiyuan","Hangzhou","Chang","Jiangling","Chengdu","Guang","Youzhou","Yongchang",
 		"Shanzhou","Yizhou","Liangzhou","Lingzhou","Guangzhou","Suzhou","Kunzhou","Annan","Aizhou","Huanzhou",
 		"Andong","Chanyu","Qocho","Yiwu","Huaiyuan","Anbei","Ezhou","Songmo","Shazhou","Yanqi"]
 
@@ -334,8 +334,8 @@
         "innerColor": [255,25,25],
 
 		"favouredReligion": "Confucianism",
-		"uniqueName": "Righteousness",
-		"uniques": ["[+15]% Strength <when fighting in [Enemy Land] tiles>","[+20]% [Culture] [in all cities]"],
+		"uniqueName": "Art of War",
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"],
 		"cities": ["Chengzhou","Wangcheng","Fenghao","Zou","Luoyi","Anyi","Yangzhai","Daliang","Ye","Wei",
 		"Handan","Dai","Ji","Linzi","Danyang","Cai","Chen","Shouchun","Wu","Xianyang",
 		"Ying","Yong","Nanzheng"]
@@ -527,7 +527,7 @@
 	{
 		"name": "Etruscans",
 		"leaderName": "Tarchon",
-		"adjective": ["Etruscan"],
+		"adjective": ["Eturian"],
 		"preferredVictoryType": "Cultural"
 
         "startIntroPart1": "",
@@ -599,6 +599,79 @@
 		"uniques": ["[25]% [Gold] [in all coastal cities]","[+1 Production] from [Water resource] tiles [in all cities]"]
 		"cities": ["Caral","Aspero","El Paraiso","Porvenir","Cerro Lampay","Caballete","Cerro Blanco","Huaricanga","Shaura","Upaca",
 		"Potao","Vinto Alto","Huayto","Lurihuasi","Miraya"]
+    },
+	{
+		"name": "Mycenaeans",
+		"leaderName": "Agamennon",
+		"adjective": ["Mycenaean"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Your greviances have built up to a point until we have to punish you.",
+		"attacked": "Ha?",
+		"defeated": "There shall be a dark age for my people, but sooner they shall prosper.",
+		"introduction": "I am Agamennon, king of Mycenae. We can be great friends, you know.",
+		"hateHello": "What?",
+		"tradeRequest": "We request this exchange if you will it.",
+
+        "outerColor": [164,231,224],
+        "innerColor": [108,55,23],
+
+		"favouredReligion": "Christianity",
+		"uniqueName": "Poleis",
+		"uniques": ["Allied City-States provide [Gold] equal to [33]% of what they produce for themselves","[-33]% City-State Influence degradation"]
+		"cities": ["Mycenae","Pylos","Menelaion","Tyhos","Orchomenos","Chrysso","Kalydon","Argos","Lerna","Tirnys",
+		"Aigeira","Eutresis","Lefkandi","Vrauron","Iolcos"]
+    },
+// Classical civs
+	{
+		"name": "Han",
+		"leaderName": "Emperor Wu",
+		"adjective": ["Han"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "You are a threat to the celestial empire.",
+		"attacked": "Your manners of war are more uncivilized than a horde of barbarians",
+		"defeated": "Heaven is now in your favor.",
+		"introduction": "I am Emperor Wu of Han, Emperor of China. What tales from your land do you carry?",
+		"hateHello": "Are you really trying to fool me?",
+		"tradeRequest": "Let us benefit from this benevolent offer.",
+
+        "outerColor": [212,165,137],
+        "innerColor": [108,57,0],
+
+		"favouredReligion": "Taoism",
+		"uniqueName": "Commoner Conscription",
+		"uniques": ["[+33]% Production when constructing [Melee] units [in all cities]","[+2 Happiness] [in all cities] <with a garrison> <after discovering [Civil Service]>"]
+		"cities": ["Cháng'ān","Luoyang","Handan","Jinyang","Pengcheng","Shouchun","Guangling","Linxiang","Wan","Jianling",
+		"Anyi","Huai","Zhangzi","Yangdi","Chen","Linzi","Gaomi","Guzhang","Poyang","Chengle"]
+    },
+	{
+		"name": "Maurya",
+		"leaderName": "Ashoka",
+		"adjective": ["Maurya"],
+
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+
+        "declaringWar": "Such breaches of morality you have commited, you must face the punishment.",
+		"attacked": "Do you even think your petty war is righteous and just?",
+		"defeated": "Teach yourselves about goodness for now.",
+		"introduction": "I am Ashoka, king of the Mauryas. And a seeker for what is right.",
+		"hateHello": "I know what you are going to ask for.",
+		"tradeRequest": "Accept this if you want.",
+
+        "outerColor": [209,236,62],
+        "innerColor": [58,69,0],
+
+		"favouredReligion": "Buddhism",
+		"uniqueName": "Arthrashastra",
+		"uniques": ["Gain [400] [Gold] <upon conquering a city>"]
+		"cities": ["Pataliputra","Vaishali","Champa","Varanasi","Sohgaura","Shravasti","Ahichchhatra","Mathura","Sankissa","Taxila",
+		"Alexandria on the Indus","Patala","Gujjara"]
     },
 // City states
 	{
