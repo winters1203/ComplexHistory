@@ -238,10 +238,42 @@
 		"uniqueTo": "Maurya"
 		"culture": 1,
 		"faith": 1,
-		"cost": 50,
+		"cost": 90,
 		"hurryCostModifier": 40,
 		"maintenance": 0,
 		"uniques": ["Destroyed when the city is captured"]
 		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Popular Assembly",
+		"replaces": "Colosseum",
+		"uniqueTo": "Greece",
+		"maintenance": 1,
+		"happiness": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+33]% Production when constructing [Civilian] units [in this city]"]
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Gymnasium",
+		"uniqueTo": "Sparta",
+		"maintenance": 1,
+		"happiness": 1,
+		"cost": 80,
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]","[+1 Food] per [5] population [in this city]"]
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Hellenistic Theatre",
+		"uniqueTo": "Macedon",
+		"replaces": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured","New [Melee] units start with [10] Experience [in this city]"],
+		"requiredTech": "Drama and Poetry"
 	},
 ]

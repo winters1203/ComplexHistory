@@ -621,7 +621,7 @@
 		"favouredReligion": "Christianity",
 		"uniqueName": "Poleis",
 		"uniques": ["Allied City-States provide [Gold] equal to [33]% of what they produce for themselves","[-33]% City-State Influence degradation"]
-		"cities": ["Mycenae","Pylos","Menelaion","Tyhos","Orchomenos","Chrysso","Kalydon","Argos","Lerna","Tirnys",
+		"cities": ["Mycenae","Pylus","Menelaion","Tyhos","Orchomenos","Chrysso","Kalydon","Argos","Lerna","Tirnys",
 		"Aigeira","Eutresis","Lefkandi","Vrauron","Iolcos"]
     },
 // Classical civs
@@ -669,9 +669,94 @@
 
 		"favouredReligion": "Buddhism",
 		"uniqueName": "Arthrashastra",
-		"uniques": ["Gain [400] [Gold] <upon conquering a city>"]
+		"uniques": ["Gain [400] [Gold] <upon conquering a city>","[+33]% [Science] [in annexed cities]","[+33]% [Culture] [in annexed cities]"]
 		"cities": ["Pataliputra","Vaishali","Champa","Varanasi","Sohgaura","Shravasti","Ahichchhatra","Mathura","Sankissa","Taxila",
 		"Alexandria on the Indus","Patala","Gujjara"]
+    },
+	{
+		"name": "Greece",
+		"leaderName": "Pericles",
+		"adjective": ["Greek"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Your barbarian ways have been a threat to our Greek nation.",
+		"attacked": "We have the most righteous ways of governing ourselves, all you do is pillage and burn.",
+		"defeated": "I beg you not to continue the line of Draco.",
+		"introduction": "Greetings, esteemed leader! I am Pericles and I welcome you to the free nation of the Greeks!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "Why do I hear barbaric rambling?",
+
+		"tradeRequest": "Greetings! We offer you an agreement for the benevolent betterment of our two nations",
+
+		"outerColor": [255, 255, 255],
+		"innerColor": [65, 141, 254],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Demokratias",
+		"uniques": ["City-State territory always counts as friendly territory","Unhappiness from number of Cities doubled","[+2 Happiness] [in all cities]","[+3 Happiness] [in all cities] <when not at war>"],
+		"cities": ["Athens","Thebes","Delphi","Corinth","Megara","Aigosthena","Heraion","Piraeus","Oenophyta","Eretria",
+		"Chalcis","Oreus","Chalcris","Elis","Patras","Naupactus","Naxos","Larissa","Argos"],
+        "spyNames": ["Jason", "Helena", "Alexa", "Cletus", "Kassandra", "Andres", "Desdemona", "Anthea", "Aeneas", "Leander",]
+    },
+	{
+		"name": "Sparta",
+		"leaderName": "Leonidas",
+		"adjective": ["Spartan"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "To be victorious is our only goal.",
+		"attacked": "Let us see who is the coward here.",
+		"defeated": "The men of Sparta will always keep fighting.",
+		"introduction": "I am Leonidas, king of Sparta. What feats have your nation achieved?",
+
+		"neutralHello": "Are you being a lazy coward or investing yourself in glory?",
+		"hateHello": "Speak!",
+
+		"tradeRequest": "Sparta offers you this benevolent offer.",
+
+		"outerColor": [160, 0, 0],
+		"innerColor": [234, 168, 15],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Warrior Society",
+		"uniques": ["[+25]% Production when constructing [Land] units [in all cities]","[+15]% Strength <for [Melee] units> <when defending>"],
+		"cities": ["Sparta","Helos","Gythion","Thuria","Methone","Pylos","Stenyclarus","Lepreum","Olympia","Orchomenus",
+		"Dipaea","Tegea","Thyrea","Phlious","Sicyon","Oenoe"],
+    },
+	{
+		"name": "Macedon",
+		"leaderName": "Alexander",
+		"adjective": ["Macedonian"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "Hello stranger! I am Alexandros, son of kings and grandson of the gods!",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What??",
+
+		"tradeRequest": "My friend, does this seem reasonable to you?",
+
+		"outerColor": [40, 40, 100],
+		"innerColor": [231, 167, 20],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Conqueror and Unifier",
+		"uniques": ["[-50]% City-State Influence degradation","Great General provides double combat bonus","Free [Great General] appears <upon entering the [Classical era]>"],
+		"cities": ["Pella","Aigai","Beroea","Methone","Pydna","Olynthus","Therma","Potidaea","Mende","Scione",
+		"Stagyrus","Sane","Acanthus","Singus","Torone"],
     },
 // City states
 	{

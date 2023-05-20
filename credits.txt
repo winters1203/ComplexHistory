@@ -1,3 +1,7 @@
+Italian translation: Smashfanful
+
+
+
 Cuneiform sumer dingir by Geoff Richards from https://commons.wikimedia.org/wiki/File:Cuneiform_sumer_dingir.svg
 Ha-ta-m-ti by पाटलिपुत्र  from https://commons.wikimedia.org/wiki/File:Ha-ta-m-ti.jpg
 Hittite sun disk by Şahin Şeker from https://commons.wikimedia.org/wiki/File:Hittite_sun_disk.svg
@@ -49,3 +53,6 @@ Fish by Larea https://thenounproject.com/icon/fish-4679161/
 Ship by Mar'atus Ratna Kurnia https://thenounproject.com/icon/ship-5648472/
 Stone by Eucalyp https://thenounproject.com/icon/stone-1942024/
 Maurya icon from Imperator: Rome
+https://thenounproject.com/icon/javelin-4852018/
+https://thenounproject.com/icon/vote-1617498/
+https://thenounproject.com/icon/drama-2036471/
