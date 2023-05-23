@@ -758,6 +758,60 @@
 		"cities": ["Pella","Aigai","Beroea","Methone","Pydna","Olynthus","Therma","Potidaea","Mende","Scione",
 		"Stagyrus","Sane","Acanthus","Singus","Torone"],
     },
+	{
+		"name": "Germania",
+		"leaderName": "Arminius",
+		"adjective": ["Germanic"],
+		"startBias": ["Forest"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "For Tyr we shall fight!",
+		"attacked": "You are a enroaching force to our heartland, and all invaders must be crushed.",
+		"defeated": "Plunder our villages, steal our treasures, but the Gods will have none of it towards you.",
+		"introduction": "I am Arminius, king of the peoples of Germania.",
+
+		"neutralHello": "Greetings!",
+		"hateHello": "What??",
+
+		"tradeRequest": "Shall we exchange?",
+
+		"outerColor": [71, 15, 41],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Beyond the Rhine",
+		"uniques": ["Double movement in [Forest]","[+25]% Strength <when fighting in [Forest] tiles>"],
+		"cities": ["Colonia Agrippina","Augusta Treverorum","Castra Bonnensia","Borbetomagnus","Noviomagnus Batavorum","Mattiacum","Vindonissa","Coriovallum","Aliso","Cheruscia",
+		"Suebia","Marcomannia"],
+    },
+	{
+		"name": "Gaul",
+		"leaderName": "Vercingetorix",
+		"adjective": ["Gaullish"],
+		"startBias": ["Hill"],
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Woe to those that extend themselves over our land!",
+		"attacked": "Ha? Would I mind if all the villages you conquer are barren and desolate?",
+		"defeated": "You have nothing to gain.",
+		"introduction": "I am Vercingetorix, chief of the Gauls. Are you enroaching our territory or eager to befriend us?",
+
+		"neutralHello": "Hello, wise one.",
+		"hateHello": "Do you even think we can accept your already planned peace deal?",
+
+		"tradeRequest": "Let us exchange, and there will be no war.",
+
+		"outerColor": [31, 75, 24],
+		"innerColor": [235, 255, 174],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Men of Nature",
+		"uniques": ["Double movement in [Hill]","Cities are razed [2] times as fast"],
+		"cities": ["Alesia","Bibracte","Gergovia","Luteta","Avaricum","Magetobriga","Lugudunon","Aduatuca","Autricum","Cenabon",
+		"Aeduia","Biturigia","Carnutia","Helvetia","Volcia"],
+    },
 // City states
 	{
 		"name": "Lacedaemon",

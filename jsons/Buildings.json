@@ -276,4 +276,23 @@
 		"uniques": ["Destroyed when the city is captured","New [Melee] units start with [10] Experience [in this city]"],
 		"requiredTech": "Drama and Poetry"
 	},
+	{
+		"name": "Muster Field",
+		"uniqueTo": "Germania",
+		"replaces": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"uniques": ["New [Military] units start with [20] Experience [in this city]", "[+1 Culture] per [4] population [in this city]","Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Oppidum",
+		"replaces": "Walls",
+		"uniqueTo": "Gaul",
+		"cityStrength": 6,
+		"cityHealth": 75,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 ]
